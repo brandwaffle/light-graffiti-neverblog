@@ -1,0 +1,28 @@
+/*
+Theme Name: Light Graffiti
+Description: A highly widgetized, cool, dark theme. Up to around 10 main categories and 6 pages allowed to fit into layout, after that use sub divisions.
+Author: Louisa Nicholson at Beacon Technologies, Inc
+Author URI: http://www.beacontechnologies.com/
+Version: 1.0.2
+Tags: dark, two-columns, fixed-width, right-sidebar
+.
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+Based off of the template 'Pretty Spots'.
+.
+*/
+
+@import "_css/style.css";
+@import "_css/superfish.css";
+
+h3.bsuite_related, h3.bsuite_related_bypageviews{
+	margin-top: 20px;
+}
+
+/* WordPress required styles */
+.alignright {float: right; margin: 0 0 10px 15px;}
+.alignleft {float: left; margin: 0 15px 10px 0;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto;}
+.wp-caption {border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px;	-moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.wp-caption img {margin: 0;	padding: 0;	border: 0 none;}
+.wp-caption-dd {font-size: 11px; line-height: 17px;	padding: 0 4px 5px;	margin: 0;}
+.aktt_tweets {list-style-image: url(/wp-content/themes/light-graffiti/_images/comments.gif);}
