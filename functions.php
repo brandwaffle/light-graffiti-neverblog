@@ -11,6 +11,13 @@ if ( function_exists('register_sidebar') )
 	'before_title' => '<h2>',
 	'after_title' => '</h2>'
 	));
+	register_sidebar(array('name'=>'Feature',
+	'id' => 'sidebar-feature',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>'
+	));
 	register_sidebar(array('name'=>'Bottom Left',
 	'id' => 'sidebar-bottom-left',
 	'before_widget' => '',

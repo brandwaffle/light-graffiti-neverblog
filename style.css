@@ -18,6 +18,10 @@ h3.bsuite_related, h3.bsuite_related_bypageviews{
 	margin-top: 20px;
 }
 
+#lf_comment_stream{
+	max-width: 570px;
+}
+
 /* WordPress required styles */
 .alignright {float: right; margin: 0 0 10px 15px;}
 .alignleft {float: left; margin: 0 15px 10px 0;}

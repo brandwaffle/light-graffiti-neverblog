@@ -6,8 +6,6 @@
 
 get_header(); ?>
 
-	<?php query_posts($query_string.'&showposts=1'); ?>
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div id="feature" class="clearfix">	
 			<div id="feature-date"><?php the_time('j'); ?> <span><?php the_time('M'); ?></span></div>
 			<div id="feature-text">
@@ -33,7 +31,6 @@ get_header(); ?>
 			<!--<?php echo Shashin::getRandom(2,64,3,6,'n','center','clear'); ?>-->
 			</div>	
 		</div>
-	<?php endwhile; endif; ?>
 	
 	<div id="recent">
 		<h2>Recent Posts</h2>
